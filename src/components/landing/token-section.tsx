@@ -73,7 +73,7 @@ export function TokenSection() {
                   { label: "Symbol", value: "$MOLTWALL" },
                   { label: "Network", value: "Base (L2)" },
                   { label: "Standard", value: "ERC-20" },
-                  { label: "Total Supply", value: "100000,000,000" },
+                  { label: "Total Supply", value: "100,000,000,000" },
                 ].map((row, i) => (
                   <div key={i} className="flex justify-between">
                     <span className="text-muted-foreground text-sm">{row.label}</span>
