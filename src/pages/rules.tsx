@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { Shield, Plus, ToggleLeft, ToggleRight, Trash2, GripVertical, ChevronDown, Menu } from "lucide-react"
+import { Plus, ToggleLeft, ToggleRight, Trash2, GripVertical, Menu } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
