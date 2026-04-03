@@ -96,7 +96,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.6 }}
             className="flex justify-center gap-4"
           >
-            <a href="https://github.com/moltwall" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/johanliberty" target="_blank" rel="noopener noreferrer"
                className="p-3 rounded-full bg-muted hover:bg-primary/10 transition-colors">
               <Github className="h-5 w-5" />
             </a>

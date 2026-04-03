@@ -8,7 +8,7 @@ import { useState } from "react"
 // Dummy CA on Base — update when live
 const TOKEN_ADDRESS = "0x06e70fB88Ca11002aea04dC6ADCD2320df124d13"
 const BASESCAN_URL = `https://basescan.org/token/${TOKEN_ADDRESS}`
-const DEXSCREENER_URL = `https://dexscreener.com/base/${TOKEN_ADDRESS}`
+const DEXSCREENER_URL = "https://flaunch.gg/base/coins/0x06e70fB88Ca11002aea04dC6ADCD2320df124d13"
 
 const distribution = [
   { label: "Community & Rewards", pct: 40, color: "bg-primary" },
@@ -73,7 +73,7 @@ export function TokenSection() {
                   { label: "Symbol", value: "$MOLTWALL" },
                   { label: "Network", value: "Base (L2)" },
                   { label: "Standard", value: "ERC-20" },
-                  { label: "Total Supply", value: "1,000,000,000" },
+                  { label: "Total Supply", value: "100000,000,000" },
                 ].map((row, i) => (
                   <div key={i} className="flex justify-between">
                     <span className="text-muted-foreground text-sm">{row.label}</span>
@@ -122,7 +122,7 @@ export function TokenSection() {
                 ))}
                 <div className="pt-4 border-t space-y-2">
                   {[
-                    { label: "Market Cap", value: "TBA" },
+                    { label: "Market Cap", value: "17k" },
                     { label: "Launch Price", value: "TBA" },
                   ].map((row, i) => (
                     <div key={i} className="flex justify-between text-sm">
@@ -170,7 +170,6 @@ export function TokenSection() {
                   </a>
                 </div>
                 <p className="text-xs text-muted-foreground text-center">
-                  ⚠️ Token not yet launched. CA above is placeholder.
                 </p>
               </CardContent>
             </Card>
