@@ -22,7 +22,7 @@ export function Footer() {
               Production-grade security firewall for AI agents.
             </p>
             <div className="flex gap-3">
-              {[{icon: Github, href: "https://github.com/johanliberty"}, {icon: Twitter, href: "https://x.com/moltfirewall?s=21"}, {icon: MessageCircle, href: "https://discord.gg/moltwall"}, {icon: Mail, href: "mailto:hello@moltwall.xyz"}].map((social, i) => (
+              {[{icon: Github, href: "https://github.com/moltwall"}, {icon: Twitter, href: "https://x.com/moltwallfun?s=21"}, {icon: MessageCircle, href: "https://discord.gg/moltwall"}, {icon: Mail, href: "mailto:hello@moltwall.xyz"}].map((social, i) => (
                 <a key={i} href={social.href} target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-muted hover:bg-primary/10 transition-colors">
                   <social.icon className="h-4 w-4" />
                 </a>

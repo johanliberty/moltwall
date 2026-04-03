@@ -100,7 +100,7 @@ export function Hero() {
                className="p-3 rounded-full bg-muted hover:bg-primary/10 transition-colors">
               <Github className="h-5 w-5" />
             </a>
-            <a href="https://x.com/moltfirewall?s=21" target="_blank" rel="noopener noreferrer"
+            <a href="https://x.com/moltwallfun?s=21" target="_blank" rel="noopener noreferrer"
                className="p-3 rounded-full bg-muted hover:bg-primary/10 transition-colors">
               <Twitter className="h-5 w-5" />
             </a>
