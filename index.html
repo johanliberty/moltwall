@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>moltwall</title>
+    <!-- Apply theme BEFORE React renders to prevent black flash -->
+    <script>
+      try {
+        var stored = localStorage.getItem('moltwall-theme');
+        var theme = stored || 'dark';
+        if (theme === 'system') {
+          theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        document.documentElement.classList.add(theme);
+      } catch (e) {
+        // Fallback: apply dark mode directly if localStorage is blocked
+        document.documentElement.classList.add('dark');
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
